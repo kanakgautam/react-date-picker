@@ -1,7 +1,7 @@
 .btn-hour {
   width: 122px;
   height: 55px;
-  margin: 20px;
+  margin: 12px;
   color: #4a4a4a;
   background-color: rgba(83, 212, 253, 0.5);
   border: none;
@@ -12,7 +12,7 @@
   line-height: 33px;
 }
 .container-btn {
-  margin: 6% 14%;
+  margin: 4% 14% 4% 15%;
 }
 
 .btn-hour:focus {
