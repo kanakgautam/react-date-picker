@@ -8,8 +8,8 @@ function Day(props) {
             changeActive(props.date);
         }}>
             <button className={props.highlighted ? 'btn-highlighted': 'btn'}>
-                <p>{props.day}</p>
-                <h1 className='day'>{props.date}</h1>
+                <p className='day-para'>{props.day}</p>
+                <h1 className='day-heading'>{props.date}</h1>
             </button>
         </div>
     )

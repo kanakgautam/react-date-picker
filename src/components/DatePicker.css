@@ -1,16 +1,17 @@
-.date-picker-wrapper{
-    margin: 20px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border-top: solid 2px rgb(194, 190, 190);
-    border-bottom: solid 2px rgb(192, 189, 189);
+.date-picker-wrapper {
+  margin: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 2px rgb(194, 190, 190);
+  border-bottom: solid 2px rgb(192, 189, 189);
 }
-.btn-mover{
-    height: 100px;
-    width: 100px;
-    background: #fff;
-    border:none;
-    color: grey;
+.btn-mover {
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border: none;
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 25px;
 }

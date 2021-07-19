@@ -1,37 +1,52 @@
-.btn-hour{
-    width: 80px;
+.btn-hour {
+  width: 122px;
+  height: 55px;
+  margin: 20px;
+  color: #4a4a4a;
+  background-color: rgba(83, 212, 253, 0.5);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+.container-btn {
+  margin: 6% 14%;
+}
+
+.btn-hour:focus {
+  background-color: white;
+  border: 2px solid gold;
+}
+
+@media screen and (max-width: 920px) {
+  .btn-hour {
+    width: 60px;
     height: 30px;
-    margin: 20px;
-    color: #4A4A4A;
-    background-color: #87ceeb;
-    border:none;
+    margin: 10px;
+    color: #4a4a4a;
+    background-color: rgba(83, 212, 253, 0.5);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 33px;
+  }
 }
-.container-btn{
-    margin: 5% 10%
-}
-
-.btn-hour:focus{
-    background-color: white;
-    border: 2px solid gold;
-}
-
-@media screen and (max-width:920px){
-    .btn-hour{
-        width: 60px;
-        height: 20px;
-        margin: 10px;
-        color: #4A4A4A;
-        background-color: #87ceeb;
-        border:none;
-    }
-}
-@media screen and (max-width:620px){
-    .btn-hour{
-        width: 40px;
-        height: 20px;
-        margin: 10px;
-        color: #4A4A4A;
-        background-color: #87ceeb;
-        border:none;
-    }
+@media screen and (max-width: 620px) {
+  .btn-hour {
+    width: 40px;
+    height: 25px;
+    margin: 10px;
+    color: #4a4a4a;
+    background-color: rgba(83, 212, 253, 0.5);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 33px;
+  }
 }
